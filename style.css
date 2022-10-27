@@ -1,0 +1,72 @@
+body{
+    background: rgb(65,120,255);
+    background: linear-gradient(90deg, rgba(65,120,255,1) 17%, rgba(60,202,232,1) 63%);
+}
+.signup-canvas{
+    display: flex;
+    height: 710px;
+    justify-content: center;
+    align-items: center;
+}
+.signup-box{
+    background-color: rgba(255, 255, 255, 0.678);
+    width: 650px;
+    height: 490px;
+    border-radius: 30px;
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 16px;
+    font-family: 'Rubik', sans-serif;
+}
+input{
+    height: 37px;
+    width: 300px;
+    font-size: 20px;
+    border: none;
+    border-radius: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.inputs{
+    display: grid;
+    gap: 20px; 
+    justify-content: center; 
+}
+.sign-button{
+    width: 100px;
+    height: 45px;
+    border: none;
+    background-color: rgb(65, 115, 255);
+    border-radius: 16px;
+    font-size: 16px;
+    transition: border 0.5s,
+                border-width 0.5s,
+                border-radius 0.5s,
+                height 0.5s,
+                width 0.5s,
+                background-color 0.5s,
+                color 0.5s,
+                border-color 0.5s;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+.sign-button:hover{
+    border: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    height: 55px;
+    width: 110px;
+    color: rgba(255, 255, 255, 0.582);
+}
+.sign-button:active{
+    background-color: rgb(35, 94, 255);
+    border-color: white;
+    color: white;
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
